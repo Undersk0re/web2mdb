@@ -17,6 +17,6 @@ page = requests.get(link)
 mob = myclient_conn[DBNAME][Collection_name].insert_one(d)
 
 
-# print json
+# print json (Optional)
 for i in myclient_conn[DBNAME][Collection_name].find():
   pprint (i)
