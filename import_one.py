@@ -9,6 +9,8 @@ link= "https://www.write_where_some_webp.html" #
 # access or create new if not exists
 DBNAME="GnL"
 Collection_name="WebpSites"
+
+
 Access_string="mongodb://localhost:27017/" # standard
 myclient_conn = MongoClient(Access_string)
 html_string = requests.get(u1).text ## we can add some regex for a utf ascii filter
