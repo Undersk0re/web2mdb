@@ -1,2 +1,2 @@
 # web2mdb
-Useless python script to import some generic web pages into Mondodb
+Useless python script to import some generic web pages into Mongodb
